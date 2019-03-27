@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+
+
+    <!--Login-->
+
+    <dimen name="login_text">14sp</dimen>
+    <dimen name="signup_text">8pt</dimen>
+
+
+    <!--List Divider-->
+    <dimen name="divider">1dp</dimen>
+    <dimen name="leftmargin">90dp</dimen>
+    <dimen name="rightmargin">0dp</dimen>
+    <dimen name="listTitleText_16sp">16sp</dimen>
+    <dimen name="listSubText_12sp">12sp</dimen>
+    <dimen name="listTimeText_12sp">12sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+</resources>

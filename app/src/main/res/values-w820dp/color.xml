@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transferent">#00ffffff</color>
+    <color name="app_color">#E36A4F</color>
+    <color name="header_color">#070707</color>
+    <color name="gray_color">#C9C9CF</color>
+</resources>

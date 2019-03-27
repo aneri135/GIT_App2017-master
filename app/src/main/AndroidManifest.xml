@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.git.gitapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme"
+        tools:replace="android:icon">
+        <activity android:name=".PDFViewerActivity"></activity>
+        <activity android:name=".VideoPlayerActivity" />
+        <activity android:name=".VideoListActivity" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name="com.comman.SignupActivity" />
+        <activity android:name="com.comman.ActivityLogin" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.DesignDemo"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".AboutGit"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.DesignDemo"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Department"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.DesignDemo"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Circular"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.DesignDemo"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".NewsFeed"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.DesignDemo"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Events"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.DesignDemo"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Gallery"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.DesignDemo"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ConatctusActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.DesignDemo"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Test"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.DesignDemo"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Team"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.DesignDemo"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Tx"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.DesignDemo"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Jazba"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.DesignDemo"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".RatriB4Navratri"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.DesignDemo"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".AnnualSports"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.DesignDemo"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ViewPage"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.DesignDemo"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".FolderImage"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.DesignDemo"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".AboutDept"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.DesignDemo"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".FacultyMember"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.DesignDemo"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Developer"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".WalkThrought1Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".WalkThrought2Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".WalkThrought3Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+
+        <provider
+            android:name=".InternalStorageContentProvider"
+            android:authorities="com.git.gitapp"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyA3QLDB5gnzddqtfJ40ue7UiwepVfCqCck" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

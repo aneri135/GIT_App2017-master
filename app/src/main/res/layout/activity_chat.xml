@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layoutOne"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context=".ChatActivity">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text=" QUESTION : Why we choose dbms?"
+                    android:textSize="17sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text=" ANSWER1 : The DBMS manages the interaction between your applications and the underlying database"
+                    android:textSize="17sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text=" ANSWER2 :  It assures that the correct data is available for the requested user group when needed."
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text=" ANSWER3 : When choosing a DBMS from the variety of concepts and vendors, you should consider the following points before making a decision"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text=" ANSWER4 : Nowadays, collecting data is not a big effort any more. But, keeping the data consistent becomes even more important as more sources feed into the database. Therefore, consistency rules are very important and the ability to define these should be considered when choosing a new DBMS."
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text=" ANSWER5 : For most companies, data availability is a key business success factor and should be guaranteed at all times. The ability to backup and restore the databases is essential and needs to be possible with your chosen DBMS. IT Administrators should setup a framework and a management plan for data security and ensure as little downtime as possible."
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutTwo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context=".ChatActivity">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text=" QUESTION : Why we choose dbms?"
+                    android:textSize="17sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text=" ANSWER1 : The DBMS manages the interaction between your applications and the underlying database"
+                    android:textSize="17sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text=" ANSWER2 :  It assures that the correct data is available for the requested user group when needed."
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text=" ANSWER3 : When choosing a DBMS from the variety of concepts and vendors, you should consider the following points before making a decision"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text=" ANSWER4 : Nowadays, collecting data is not a big effort any more. But, keeping the data consistent becomes even more important as more sources feed into the database. Therefore, consistency rules are very important and the ability to define these should be considered when choosing a new DBMS."
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text=" ANSWER5 : For most companies, data availability is a key business success factor and should be guaranteed at all times. The ability to backup and restore the databases is essential and needs to be possible with your chosen DBMS. IT Administrators should setup a framework and a management plan for data security and ensure as little downtime as possible."
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutThree"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context=".ChatActivity">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text=" QUESTION : Why we choose dbms?"
+                    android:textSize="17sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text=" ANSWER1 : The DBMS manages the interaction between your applications and the underlying database"
+                    android:textSize="17sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text=" ANSWER2 :  It assures that the correct data is available for the requested user group when needed."
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text=" ANSWER3 : When choosing a DBMS from the variety of concepts and vendors, you should consider the following points before making a decision"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text=" ANSWER4 : Nowadays, collecting data is not a big effort any more. But, keeping the data consistent becomes even more important as more sources feed into the database. Therefore, consistency rules are very important and the ability to define these should be considered when choosing a new DBMS."
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text=" ANSWER5 : For most companies, data availability is a key business success factor and should be guaranteed at all times. The ability to backup and restore the databases is essential and needs to be possible with your chosen DBMS. IT Administrators should setup a framework and a management plan for data security and ensure as little downtime as possible."
+                    android:textSize="17sp" />
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EXIT" />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+</layout>

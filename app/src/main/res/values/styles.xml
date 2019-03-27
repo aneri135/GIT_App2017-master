@@ -1,0 +1,74 @@
+<resources>
+
+    Base application theme.
+    <!--  <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+    </style>-->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="actionMenuTextColor">@color/primary</item>
+        <item name="android:actionMenuTextColor">@color/primary</item>
+
+
+    </style>
+
+    <style name="MyTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/TranslucentActionBar</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+
+    </style>
+
+    <style name="spinner_style">
+        <item name="android:background">@drawable/ic_launcher</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="TranslucentActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="actionMenuTextColor">@color/gray_color</item>
+        <item name="android:actionMenuTextColor">@color/gray_color</item>
+    </style>
+
+    <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="actionMenuTextColor">@color/gray_color</item>
+        <item name="android:actionMenuTextColor">@color/gray_color</item>
+    </style>
+
+    <style name="Base.Theme.DesignDemoAccount" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="actionMenuTextColor">@color/gray_color</item>
+        <item name="android:actionMenuTextColor">@color/gray_color</item>
+    </style>
+
+
+    <style name="progress_bar_style">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="MyTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="MyTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
