@@ -1,12 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.nitrico.lastadapter:lastadapter:2.3.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/lastadapter-2.3.0.aar/08990a4346b5a7257c72551df8e1f32d/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/lastadapter-2.3.0.aar/08990a4346b5a7257c72551df8e1f32d/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/lastadapter-2.3.0.aar/6afbab18a952387b85688b767a0945a1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/lastadapter-2.3.0.aar/6afbab18a952387b85688b767a0945a1/res" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.nitrico.lastadapter/lastadapter/2.3.0/8989927c6120ac2373598983fd5d1ca1f203df28/lastadapter-2.3.0-sources.jar!/" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>
