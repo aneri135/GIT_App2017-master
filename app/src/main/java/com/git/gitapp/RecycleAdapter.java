@@ -7,8 +7,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import java.util.Collections;
@@ -52,12 +50,12 @@ class RecyclerAdapter extends RecyclerView.Adapter<RecyclerViewHolder> {
         myHolder.cDate.setText(current.cDate);
         myHolder.cTitle.setText(current.cTitle);
 
-        myHolder.layout.setOnClickListener(new View.OnClickListener() {
+        myHolder.imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String url = data.get(position).cUrl;
                 Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse("https://firebasestorage.googleapis.com/v0/b/gitapp-151d2.appspot.com/o/dbms_tutorial.pdf?alt=media&token=e094822a-2857-4965-81e2-7f5276d6bb51"));
+                i.setData(Uri.parse(url));
                 context.startActivity(i);
             }
         });
@@ -75,14 +73,12 @@ class RecyclerAdapter extends RecyclerView.Adapter<RecyclerViewHolder> {
 
         TextView cDate, cTitle, cUrl;
 
-        RelativeLayout layout;
 
         // create constructor to get widget reference
         public RecycleViewHolder(View itemView) {
             super(itemView);
             cDate = (TextView) itemView.findViewById(R.id.cDate);
             cTitle = (TextView) itemView.findViewById(R.id.cTitle);
-            layout = (RelativeLayout)itemView.findViewById(R.id.layout);
 //            cUrl=(TextView) itemView.findViewById(R.id.cUrl);
 
         }
