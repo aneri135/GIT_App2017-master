@@ -50,6 +50,7 @@
             android:id="@+id/nav_event"
             android:icon="@drawable/ic_event_black_24dp"
             android:title="Events"
+            android:visible="false"
             foo:customFont="fonts/proximanova-semibold-webfont.ttf" />
 
         <item
