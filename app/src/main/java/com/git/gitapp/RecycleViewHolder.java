@@ -3,6 +3,7 @@ package com.git.gitapp;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 /**
@@ -13,6 +14,8 @@ class RecyclerViewHolder extends RecyclerView.ViewHolder {
 
     TextView cDate, cTitle, cUrl;
     ImageView imageView;
+    RelativeLayout layout;
+
 
     public RecyclerViewHolder(View itemView) {
         super(itemView);
@@ -21,5 +24,7 @@ class RecyclerViewHolder extends RecyclerView.ViewHolder {
         cTitle = (TextView) itemView.findViewById(R.id.cTitle);
         imageView = (ImageView) itemView.findViewById(R.id.list_avatar);
 //        cUrl=(ImageView) itemView.findViewById(R.id.cUrl);
+        layout = (RelativeLayout)itemView.findViewById(R.id.layout);
+
     }
 }
