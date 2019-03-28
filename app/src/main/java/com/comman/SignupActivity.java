@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.git.gitapp.HomeActivity;
+import com.git.gitapp.LoginActivity;
 import com.git.gitapp.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -68,7 +69,7 @@ public class SignupActivity extends Activity {
         signIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent I = new Intent(SignupActivity.this, ActivityLogin.class);
+                Intent I = new Intent(SignupActivity.this, LoginActivity.class);
                 startActivity(I);
             }
         });
